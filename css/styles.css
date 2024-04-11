@@ -5,3 +5,20 @@ th {
 h1{
     background-color: blue;
 }
+P{
+    font-family: 'Times New Roman', sans-serif, serif;
+}
+
+ul#flex-container{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ /* Change what a link should look like when hovered over with the mouse */
+ a:hover {
+    color: darkred;
+    text-decoration: none;
+    list-style-type:none;
+    }
